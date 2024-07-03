@@ -1,0 +1,7 @@
+def calculate_colors(num_bits):
+    return 2 ** num_bits
+
+num_bits = 4
+num_colors = calculate_colors(num_bits)
+
+print(f'Number of possible colors with {num_bits} bits: {num_colors}')
